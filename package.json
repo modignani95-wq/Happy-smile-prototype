@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "HappySmile Dental Clinic - AI Triaged Patient & Receptionist Platform",
   "scripts": {
-    "build": "echo 'Static build ready'"
+    "build": "node -e \"const fs=require('fs'); if(!fs.existsSync('public')) fs.mkdirSync('public'); fs.copyFileSync('index.html', 'public/index.html'); console.log('Public build ready');\""
   }
 }

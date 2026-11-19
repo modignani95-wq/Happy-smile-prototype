@@ -1,8 +1,5 @@
 {
   "name": "happy-smile-prototype",
-  "version": 2,
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "outputDirectory": "public",
+  "cleanUrls": true
 }
