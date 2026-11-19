@@ -1,0 +1,8 @@
+{
+  "name": "happy-smile-prototype",
+  "version": "1.0.0",
+  "description": "HappySmile Dental Clinic - AI Triaged Patient & Receptionist Platform",
+  "scripts": {
+    "build": "echo 'Static build ready'"
+  }
+}
